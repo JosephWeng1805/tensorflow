@@ -132,7 +132,7 @@ def pred_and_plot(model, filename, class_names):
     plt.title(f"Prediction: {pred_class}")
     plt.axis(False);
 
-    import datetime
+import datetime
     
 def create_tensorboard_callback(dir_name, experiment_name):
     """
