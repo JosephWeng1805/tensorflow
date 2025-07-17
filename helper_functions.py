@@ -1,7 +1,7 @@
 ### I create a bunch of helpful functions
 ### Storing them here so they're easily accessible.
 
-import tensorflow as tensorflow
+import tensorflow as tf
 
 # Create a function to import an image and resize it to be able to be used with the model
 def load_and_prep_image(filename, image_shape=224, scale=True):
